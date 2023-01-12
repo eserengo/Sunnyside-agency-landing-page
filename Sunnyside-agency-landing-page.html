@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./src/Sunnyside-agency-landing-page.css" media="all">
+  <script src="./src/Sunnyside-agency-landing-page.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap">
+  <meta name="description" content="Author: Federico Borzani, Sunnyside agency landing page">
+</head>
+
+<body>
+  <header class="header flex-row rel">
+    <img class="logo" src="./src/images/logo.svg" alt="logo image" />
+    <i class="fa fa-bars mobile selectable" id="hamburguer"></i>
+    <nav class="desktop">
+      <ul class="flex-row" id="nav">
+        <li class="selectable nav-text">About</li>
+        <li class="selectable nav-text">Services</li>
+        <li class="selectable nav-text">Projects</li>
+        <li class="selectable nav-pill">Contact</li>
+      </ul>
+    </nav>
+    <nav class="hidden abs" id="modal">
+      <i class="fa fa-times selectable abs" id="close-btn"></i>
+      <ul class="flex-col">
+        <li class="selectable modal-text">About</li>
+        <li class="selectable modal-text">Services</li>
+        <li class="selectable modal-text">Projects</li>
+        <li class="selectable modal-pill">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main grid">
+    <section class="head center">
+      <h1>We are creatives</h1>
+      <img class="arrow" src="./src/images/icon-arrow-down.svg" alt="arrow image" />
+    </section>
+    <section class="transform-bg">
+    </section>
+    <section class="transform center">
+      <h2>Transform your brand</h2>
+      <p class="para">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <h5 class="selectable">Learn more</h5>
+    </section>
+    <section class="standout-bg">
+    </section>
+    <section class="standout center">
+      <h2>Stand out to the right audience</h2>
+      <p class="para">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
+      <h5 class="selectable">Learn more</h5>
+    </section>
+    <section class="graphic center">
+      <h3>Graphic design</h3>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+    </section>
+    <section class="photography center">
+      <h3>Photography</h3>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </section>
+    <section class="client rel center">
+      <h4 class="abs">Client testimonials</h4>
+      <div class="wrapper">
+        <img class="avatar" src="./src/images/image-emily.jpg" alt="Emily avatar image" />
+        <p class="para">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <h6>Emily R.</h6>
+        <p class="para">Marketing Director</p>
+      </div>
+      <div class="wrapper">
+        <img class="avatar" src="./src/images/image-thomas.jpg" alt="Thomas avatar image" />
+        <p class="para">Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+        <h6>Thomas S.</h6>
+        <p class="para">Chief Operating Officer</p>
+      </div>
+      <div class="wrapper">
+        <img class="avatar" src="./src/images/image-jennie.jpg" alt="Jennie avatar image" />
+        <p class="para">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <h6>Jennie F.</h6>
+        <p class="para">Business Owner</p>
+      </div>
+    </section>
+    <section class="pictures">
+    </section>
+  </main>
+  <footer class="footer center">
+    <img class="logo foot-logo" src="./src/images/logo-footer.svg" alt="logo image" />
+    <ul class="flex-row center foot-nav">
+      <li class="selectable">About</li>
+      <li class="selectable">Services</li>
+      <li class="selectable">Projects</li>
+    </ul>
+    <ul class="flex-row center foot-social">
+      <li class="selectable"><i class="fa fa-facebook-square"></i></li>
+      <li class="selectable"><i class="fa fa-instagram"></i></li>
+      <li class="selectable"><i class="fa fa-twitter-square"></i></li>
+      <li class="selectable"><i class="fa fa-pinterest"></i></li>
+    </ul>
+  </footer>
+  <div class="attribution">
+    Challenge by <a class="anchor selectable" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a class="anchor selectable" href="https://github.com/eserengo/" target="_blank">Federico Borzani</a>.
+  </div>
+</body>
+</html>
